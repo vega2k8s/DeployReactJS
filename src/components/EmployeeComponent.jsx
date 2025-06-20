@@ -39,7 +39,7 @@ const EmployeeComponent = () => {
   // Load data on mount
   useEffect(() => {
     fetchDepartments();
-    
+    //수정
     if (isEdit && id) {
       fetchEmployee(id);
     } else {
